@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentina Sotelo</title>
+    <style>
+        /* Estilos básicos de la página */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFF5E1;
+            color: #4C2A4A;
+        }
+        header {
+            background-color: #F5C518;
+            color: #4C2A4A;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #D4A5E5;
+        }
+        nav a {
+            color: #4C2A4A;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #F5C518;
+        }
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        h2 {
+            color: #4C2A4A;
+        }
+
+        /* Estilos para las imágenes */
+        .profile-image {
+            width: 200px;
+            height: auto;
+            border: 5px solid;
+            border-image-slice: 1;
+            border-width: 10px;
+            border-image-source: linear-gradient(45deg, yellow, purple);
+            animation: borderAnimation 2s infinite alternate;
+            display: block;
+            margin: auto;
+            border-radius: 50%;
+        }
+        @keyframes borderAnimation {
+            from { border-image-source: linear-gradient(45deg, yellow, purple); }
+            to { border-image-source: linear-gradient(45deg, purple, yellow); }
+        }
+
+        /* Estilo de las secciones */
+        .section {
+            background-color: #FFF5E1;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilo del pie de página */
+        footer {
+            background-color: #D4A5E5;
+            text-align: center;
+            padding: 10px;
+            color: #4C2A4A;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Valentina Sotelo</h1>
+</header>
+
+<nav>
+    <a href="#sobre-mi">Sobre Mí</a>
+    <a href="#dibujos">Mis Dibujos</a>
+</nav>
+
+<main>
+    <section id="sobre-mi" class="section">
+        <h2>Sobre Mí</h2>
+        <img src="E:\BiografíasDelAnuario\ValentinaSotelo.jpg" alt="Foto de Valentina Sotelo" class="profile-image">
+        <p>
+            ¡Hola! Soy Valentina Sotelo, nací el 21 de junio del 2007 en la isla de Margarita, Venezuela. Me mudé a Panamá cuando tenía alrededor de 11 o 12 años junto a mi mamá y mi padrastro. Desde entonces, he estado viviendo en este hermoso país, mientras mantengo un vínculo cercano con mi familia en Venezuela. Tengo un hermanastro que viene a Panamá durante las vacaciones escolares, lo cual siempre es una experiencia muy especial para mí.
+        </p>
+        <p>
+            Desde pequeña, me ha fascinado el arte y especialmente el dibujo. Mi estilo se inclina hacia las caricaturas, y uno de mis mayores sueños es estudiar animación para crear series llenas de mundos imaginarios y personajes únicos. A lo largo de los años, he desarrollado un personaje llamado <b>"Cloudy Head"</b>, que representa mi creatividad y mis intereses. Cloudy Head es una personificación de mi amor por los arcoíris, las nubes, las estrellas y la galaxia, elementos que reflejan mi conexión con lo fantástico y lo mágico.
+        </p>
+        <p>
+            Además de dibujar, me encanta escuchar música, especialmente de géneros como odecore y krushclub. También disfruto viendo series animadas, y soy una gran admiradora de las películas de Tim Burton, cuyo estilo oscuro y peculiar me inspira profundamente. Cuando no estoy dibujando o viendo series, es probable que esté disfrutando de algunas de mis comidas favoritas: empanadas de queso y helado de fresa con chocolate. ¡Y, por supuesto, también adoro dormir!
+        </p>
+        <p>
+            A los 11 años tuve una experiencia que me marcó. Durante una excursión escolar, alguien me empujó accidentalmente y caí, lo que resultó en una fractura en mi brazo izquierdo. Aunque fue doloroso y tuve que lidiar con una recuperación larga, siempre me mantuve positiva. Aún conservo una cicatriz como recuerdo de esa experiencia, pero no me molesta; la veo como una señal de fortaleza y resiliencia.
+        </p>
+    </section>
+
+    <section id="dibujos" class="section">
+        <h2>Mis Dibujos</h2>
+        <p>
+            Mi cuaderno de dibujo está lleno de personajes creados por mí, alrededor del 90% de mis hojas tienen alguna ilustración original. Estos personajes reflejan no solo mi creatividad, sino también mis pensamientos e intereses, como mundos llenos de color y aventuras. "Cloudy Head" es solo uno de muchos personajes en los que he trabajado, y planeo continuar expandiendo este universo de figuras fantásticas.
+        </p>
+        <img src="E:\BiografíasDelAnuario\DibujoDeValentina.png" alt="Dibujo de Valentina" class="profile-image">
+    </section>
+</main>
+
+<footer>
+    <p>Gracias por visitar mi página y conocer más sobre mí y mis creaciones.</p>
+</footer>
+
+</body>
+</html>

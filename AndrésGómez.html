@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrés E. Gómez J.</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #eaf2f8;
+        }
+        header {
+            background-color: #c8102e;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0056b3;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            border: 1px solid transparent;
+        }
+        nav a:hover {
+            background-color: #003d7a;
+            border: 1px solid #fff;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #fff;
+            min-width: 160px;
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+        th {
+            background-color: #c8102e;
+            color: white;
+            text-align: left;
+        }
+        h2 {
+            color: #0056b3;
+        }
+        h3 {
+            color: #c8102e;
+        }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .image-container img {
+            width: 50%; /* Tamaño mediano */
+            border: 5px solid #c8102e; /* Marco rojo */
+            padding: 5px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .image-container img:hover {
+            border-color: #0056b3; /* Cambia a azul al pasar el ratón */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Andrés E. Gómez J.</h1>
+</header>
+
+<nav>
+    <div class="dropdown">
+        <a href="#">Menú</a>
+        <div class="dropdown-content">
+            <a href="#sobre-mi">Sobre Mí</a>
+            <a href="#suenos">Mis Sueños</a>
+            <a href="#metas">Mis Metas</a>
+            <a href="#gustos">Mis Gustos</a>
+            <a href="#aficiones">Mis Aficiones</a>
+        </div>
+    </div>
+</nav>
+
+<main>
+    <section id="sobre-mi">
+        <h2>Sobre Mí</h2>
+        <div class="image-container">
+            <img src="E:\BiografíasDelAnuario\AndrésGómez.jpg" alt="Foto de Andrés Elías Gómez Jaén">
+        </div>
+        <table>
+            <tr>
+                <th>Nombre Completo</th>
+                <td>Andrés Elías Gómez Jaén</td>
+            </tr>
+            <tr>
+                <th>Fecha de Nacimiento</th>
+                <td>2 de diciembre de 2008</td>
+            </tr>
+            <tr>
+                <th>Edad</th>
+                <td>16 años</td>
+            </tr>
+            <tr>
+                <th>Lugar de Nacimiento</th>
+                <td>Ciudad de Panamá, Panamá</td>
+            </tr>
+            <tr>
+                <th>Deportes Favoritos</th>
+                <td>Baloncesto, Fútbol, Voleibol</td>
+            </tr>
+            <tr>
+                <th>Música Favorita</th>
+                <td>Phonk, Reggae, Música Urbana</td>
+            </tr>
+            <tr>
+                <th>Comidas Favoritas</th>
+                <td>Arroz con pollo, Ensalada de papa, Pollo asado</td>
+            </tr>
+            <tr>
+                <th>Hobbies</th>
+                <td>Leer, Jugar videojuegos, Ver series</td>
+            </tr>
+            <tr>
+                <th>Futuro Deseado</th>
+                <td>Estudiar en la Universidad Tecnológica de Panamá</td>
+            </tr>
+            <tr>
+                <th>Profesión Deseada</th>
+                <td>Desarrollador o Gestor de Software Automatizado</td>
+            </tr>
+            <tr>
+                <th>Intereses</th>
+                <td>Tecnología, Innovación, Actividades Comunitarias</td>
+            </tr>
+            <tr>
+                <th>Valores Personales</th>
+                <td>Familia, Amistad, Responsabilidad, Empatía</td>
+            </tr>
+        </table>
+        <p>
+            Desde una edad temprana, he estado fascinado por la tecnología y cómo funciona. Esta curiosidad me llevó a involucrarme en la programación y el desarrollo de software. La idea de poder crear algo que pueda ayudar a otros me motiva a seguir aprendiendo.
+        </p>
+        <p>
+            La familia es un pilar fundamental en mi vida. Disfruto pasar tiempo con ellos, ya sea en cenas familiares, juegos o simplemente charlando sobre nuestra vida diaria. Estos momentos son muy valiosos para mí y me ayudan a mantenerme enfocado en lo que realmente importa.
+        </p>
+    </section>
+
+    <section id="suenos">
+        <h2>Mis Sueños</h2>
+        <p>
+            Uno de mis sueños más grandes es convertirme en un experto en desarrollo de software. Aspiro a crear aplicaciones que no solo sean funcionales, sino que también mejoren la vida de las personas y contribuyan al bienestar de la sociedad.
+        </p>
+        <p>
+            También sueño con viajar por el mundo, conocer diferentes culturas y aprender de las experiencias de otras personas. Creo que viajar abre la mente y proporciona una perspectiva más amplia sobre la vida.
+        </p>
+        <p>
+            Al llegar a los 80 años, espero tener una gran familia con muchos nietos. Quiero ser un abuelo cariñoso que comparta historias y enseñanzas con las nuevas generaciones.
+        </p>
+        <p>
+            Deseo ser un referente en el área de la tecnología, inspirando a otros jóvenes a seguir sus pasiones y a nunca dejar de aprender. Quiero contribuir al desarrollo de soluciones tecnológicas que ayuden a resolver problemas actuales en nuestra sociedad.
+        </p>
+    </section>
+
+    <section id="metas">
+        <h2>Mis Metas</h2>
+        <p>
+            A corto plazo, mi objetivo es terminar mis estudios de secundaria con un rendimiento académico destacado. Estoy decidido a ingresar a la Universidad Tecnológica de Panamá, donde espero obtener una sólida formación en tecnología.
+        </p>
+        <p>
+            A largo plazo, aspiro a adquirir experiencia en empresas de tecnología de renombre y, eventualmente, establecer mi propia empresa de software. Me gustaría trabajar en proyectos innovadores que resuelvan problemas reales en la sociedad.
+        </p>
+        <p>
+            Cuando cumpla 18 años, planeo sacar mi licencia de conducir. Tener la libertad de manejar será un paso importante hacia mi independencia.
+        </p>
+        <p>
+            Además, quiero involucrarme en iniciativas comunitarias que fomenten el desarrollo tecnológico en mi comunidad, brindando talleres y capacitaciones a jóvenes interesados en la programación.
+        </p>
+    </section>
+
+    <section id="gustos">
+        <h2>Mis Gustos</h2>
+        <p>
+            La comida es uno de mis placeres favoritos. Mis platos favoritos incluyen el arroz con pollo, la ensalada de papa y el pollo asado, que suelen estar presentes en las reuniones familiares. Me encanta compartir una buena comida con mis seres queridos.
+        </p>
+        <p>
+            En cuanto a la música, disfruto del phonk por su energía y ritmo únicos. También aprecio el reggae por sus melodías relajantes, y a veces escucho música urbana que refleja la cultura contemporánea. La música me acompaña en mis momentos de estudio y diversión.
+        </p>
+        <p>
+            Me gusta leer libros de ciencia ficción y tecnología, ya que me permiten imaginar un futuro lleno de posibilidades y me inspiran a pensar en nuevas ideas.
+        </p>
+    </section>
+
+    <section id="aficiones">
+        <h2>Mis Aficiones</h2>
+        <p>
+            Me apasiona el baloncesto. Disfruto mucho jugarlo, tanto de manera casual con amigos como en equipos escolares. Es una manera excelente de mantenerme activo y socializar.
+        </p>
+        <p>
+            Además, participo en actividades comunitarias. Creo que es fundamental dar algo de vuelta a la comunidad, y disfruto colaborar en proyectos que beneficien a otros. Esta participación me permite conocer a personas increíbles y aprender de sus experiencias.
+        </p>
+        <p>
+            La programación es otra de mis aficiones. Me gusta aprender nuevos lenguajes y herramientas, y disfruto desarrollando pequeños proyectos personales. A través de la programación, puedo expresar mi creatividad y solucionar problemas de maneras innovadoras.
+        </p>
+        <p>
+            También disfruto de los videojuegos, especialmente los que involucran estrategia y resolución de problemas. Estos juegos no solo son entretenidos, sino que también me ayudan a desarrollar habilidades de pensamiento crítico.
+        </p>
+    </section>
+</main>
+
+</body>
+</html>

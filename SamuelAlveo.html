@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samuel Alveo</title>
+    <style>
+        /* Estilos básicos */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F4F4F4;
+            color: #333;
+        }
+        header {
+            background-color: #8B0000;
+            color: #FFF;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #A9A9A9;
+        }
+        nav a {
+            color: #333;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #696969;
+            color: #FFF;
+        }
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        h2 {
+            color: #333;
+        }
+
+        /* Estilos para las imágenes */
+        .profile-image {
+            width: 200px;
+            height: auto;
+            border: 5px solid;
+            border-image-slice: 1;
+            border-width: 10px;
+            border-image-source: linear-gradient(45deg, #8B0000, #A9A9A9);
+            animation: borderAnimation 2s infinite alternate;
+            display: block;
+            margin: auto;
+            border-radius: 50%;
+        }
+        @keyframes borderAnimation {
+            from { border-image-source: linear-gradient(45deg, #8B0000, #A9A9A9); }
+            to { border-image-source: linear-gradient(45deg, #A9A9A9, #8B0000); }
+        }
+
+        /* Estilo de las secciones */
+        .section {
+            background-color: #E6E6E6;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilo del pie de página */
+        footer {
+            background-color: #8B0000;
+            text-align: center;
+            padding: 10px;
+            color: #FFF;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Samuel Alveo</h1>
+</header>
+
+<nav>
+    <a href="#sobre-mi">Sobre Mí</a>
+    <a href="#gustos">Mis Gustos</a>
+    <a href="#pasatiempos">Mis Pasatiempos</a>
+</nav>
+
+<main>
+    <section id="sobre-mi" class="section">
+        <h2>Sobre Mí</h2>
+        <img src="E:\BiografíasDelAnuario\SamuelAlveo.jpg" alt="Foto de Samuel Alveo" class="profile-image">
+        <p>
+            Soy Samuel Alveo, tengo 18 años y nací el 26 de agosto de 2006. Vivo en la Locería, donde he pasado toda mi vida junto a mi familia: mis padres, mis cuatro hermanos, mi sobrina y mi perro Duque. Me considero una persona tranquila e introvertida, y prefiero los espacios donde puedo reflexionar y crear en silencio.
+        </p>
+        <p>
+            Siempre he valorado el tiempo en familia y la oportunidad de vivir en un ambiente lleno de apoyo y compañerismo. La relación con mis hermanos y mi sobrina es algo que aprecio profundamente, y me gusta compartir momentos de calidad con ellos.
+        </p>
+    </section>
+
+    <section id="gustos" class="section">
+        <h2>Mis Gustos e Intereses</h2>
+        <p>
+            Una de mis mayores pasiones es el dibujo, el cual me permite explorar mi creatividad y plasmar en papel las ideas y personajes que surgen en mi mente. Desde pequeño, he tenido una inclinación hacia el arte, y el dibujo se ha convertido en una parte esencial de mi vida, siendo una forma de expresar mis pensamientos y emociones.
+        </p>
+        <p>
+            Además, me encanta el mundo del anime. Disfruto de sumergirme en las historias que ofrecen y en los mundos fantásticos que presentan. Creo que el anime tiene una forma única de transmitir emociones y de contar historias que resuenan conmigo de manera especial.
+        </p>
+    </section>
+
+    <section id="pasatiempos" class="section">
+        <h2>Mis Pasatiempos</h2>
+        <p>
+            Además de dibujar y ver anime, me gusta mucho jugar videojuegos, especialmente títulos que presentan desafíos y aventuras épicas. Mis videojuegos favoritos son "Bloodborne" y "God of War". Estos juegos me permiten experimentar historias intensas y personajes complejos mientras disfruto de la emoción de superar obstáculos y descubrir nuevos mundos.
+        </p>
+        <p>
+            En "Bloodborne", disfruto de la ambientación oscura y el reto de enfrentar enemigos poderosos, mientras que en "God of War" me fascina la narrativa profunda y la relación entre los personajes. Ambos juegos me ofrecen una experiencia inmersiva que me ayuda a desconectar y a sumergirme en universos diferentes.
+        </p>
+        <p>
+            Dedico mi tiempo libre a mejorar en mis habilidades de dibujo, experimentar con nuevos estilos y técnicas, y seguir explorando mi pasión por el arte y la creatividad. Me siento agradecido de poder expresarme a través del dibujo y los videojuegos, y de encontrar en ellos un espacio para ser yo mismo.
+        </p>
+    </section>
+</main>
+
+<footer>
+    <p>Gracias por visitar mi página. ¡Espero que hayas disfrutado conocer un poco más sobre mí y mis pasatiempos!</p>
+</footer>
+
+</body>
+</html>

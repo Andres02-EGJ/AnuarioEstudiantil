@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michell Chaverra</title>
+    <style>
+        /* Estilos básicos */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F8F3F9;
+            color: #333;
+        }
+        header {
+            background-color: #E89EB0;
+            color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #B1B5C4;
+        }
+        nav a {
+            color: #333;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #E89EB0;
+        }
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        h2 {
+            color: #333;
+        }
+
+        /* Estilos para las imágenes */
+        .profile-image {
+            width: 200px;
+            height: auto;
+            border: 5px solid;
+            border-image-slice: 1;
+            border-width: 10px;
+            border-image-source: linear-gradient(45deg, pink, gray);
+            animation: borderAnimation 2s infinite alternate;
+            display: block;
+            margin: auto;
+            border-radius: 50%;
+        }
+        @keyframes borderAnimation {
+            from { border-image-source: linear-gradient(45deg, pink, gray); }
+            to { border-image-source: linear-gradient(45deg, gray, pink); }
+        }
+
+        /* Estilo de las secciones */
+        .section {
+            background-color: #F8F3F9;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilo del pie de página */
+        footer {
+            background-color: #B1B5C4;
+            text-align: center;
+            padding: 10px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Michell Chaverra</h1>
+</header>
+
+<nav>
+    <a href="#sobre-mi">Sobre Mí</a>
+    <a href="#gustos">Mis Gustos</a>
+</nav>
+
+<main>
+    <section id="sobre-mi" class="section">
+        <h2>Sobre Mí</h2>
+        <img src="E:\BiografíasDelAnuario\MichellChaverra.jpg" alt="Foto de Michell Chaverra" class="profile-image">
+        <p>
+            Mi nombre completo es Michell Eibette Chaverra Vivas, nací el 17 de abril de 2007. Vivo con mis padres y mi hermano mayor en Panamá, y he tenido una trayectoria educativa en varias instituciones que me han ayudado a crecer y aprender. Desde kínder hasta sexto grado, estudié en la escuela Residencial Vacamonte. Posteriormente, continué mi formación en el C. E. B. G. Bilingüe El Tecal, donde estuve desde séptimo hasta noveno grado. Actualmente, estoy cursando mis estudios en el Fermín Naudeau, enfocada en obtener el mejor desempeño posible.
+        </p>
+        <p>
+            Uno de mis mayores sueños es poder graduarme de duodécimo grado e ingresar a la universidad para continuar expandiendo mis conocimientos. Tengo una gran motivación por aprender y siempre busco mejorar mis habilidades, lo cual me ayudará en el futuro a alcanzar mis metas personales y profesionales. La idea de aprender algo nuevo y útil cada día es una de las cosas que más me inspira.
+        </p>
+    </section>
+
+    <section id="gustos" class="section">
+        <h2>Mis Gustos</h2>
+        <p>
+            En cuanto a mis gustos, tengo una variedad de intereses que me ayudan a relajarme y divertirme. Disfruto de distintos géneros de música, ya que considero que cada estilo tiene su propio encanto y se adapta a diferentes momentos. En el ámbito culinario, mis comidas favoritas son la lasaña y los deditos de pollo. Son platillos que nunca me canso de comer, y disfruto cada oportunidad que tengo de degustarlos.
+        </p>
+        <p>
+            Mi película favorita es <em>Crepúsculo</em>, ya que me atrapa su historia y el mundo que crea. También me gusta mucho la serie animada <em>Bob Esponja</em>, que siempre logra sacarme una sonrisa. Además, aunque no soy aficionada a un solo deporte, me gusta probar y disfrutar diferentes tipos de actividades deportivas, lo que me ayuda a mantenerme activa y en buena forma.
+        </p>
+    </section>
+</main>
+
+<footer>
+    <p>Gracias por visitar mi página personal. ¡Espero que hayas disfrutado conocer un poco más sobre mí!</p>
+</footer>
+
+</body>
+</html>

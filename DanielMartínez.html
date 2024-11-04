@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Martínez</title>
+    <style>
+        /* Estilos básicos */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F5F5F5;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #FFF;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: #FFF;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #666;
+        }
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        h2 {
+            color: #333;
+        }
+
+        /* Estilos para las imágenes */
+        .profile-image {
+            width: 200px;
+            height: auto;
+            border: 5px solid;
+            border-image-slice: 1;
+            border-width: 10px;
+            border-image-source: linear-gradient(45deg, #000000, #A9A9A9);
+            animation: borderAnimation 2s infinite alternate;
+            display: block;
+            margin: auto;
+            border-radius: 50%;
+        }
+        @keyframes borderAnimation {
+            from { border-image-source: linear-gradient(45deg, #000000, #A9A9A9); }
+            to { border-image-source: linear-gradient(45deg, #A9A9A9, #000000); }
+        }
+
+        /* Estilo de las secciones */
+        .section {
+            background-color: #E6E6E6;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilo del pie de página */
+        footer {
+            background-color: #333;
+            text-align: center;
+            padding: 10px;
+            color: #FFF;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Daniel Martínez</h1>
+</header>
+
+<nav>
+    <a href="#sobre-mi">Sobre Mí</a>
+    <a href="#gustos">Mis Gustos</a>
+    <a href="#pasatiempos">Mis Pasatiempos</a>
+</nav>
+
+<main>
+    <section id="sobre-mi" class="section">
+        <h2>Sobre Mí</h2>
+        <img src="E:\BiografíasDelAnuario\DanielMartínez.jpeg" alt="Foto de Daniel Martínez" class="profile-image">
+        <p>
+            Mi nombre es Daniel Eduardo Martínez Muñoz, tengo 16 años y nací en Caracas, Venezuela, en 2007. Vivo actualmente en Panamá junto a mi madre y mi fiel compañera Akira, una pitbull negra con manchas blancas. A lo largo de mi vida, he desarrollado una profunda pasión por la tecnología y los autos, y mi objetivo es convertirme en un gran profesional en el área de la informática. 
+        </p>
+        <p>
+            Aspiro a estudiar en el extranjero y, en un futuro cercano, sueño con vivir en España junto a mi familia, explorando nuevas oportunidades y creciendo en el ámbito profesional y personal.
+        </p>
+    </section>
+
+    <section id="gustos" class="section">
+        <h2>Mis Gustos e Intereses</h2>
+        <p>
+            Me considero una persona amante de la naturaleza y disfruto de los momentos tranquilos rodeado de paisajes. La playa es mi lugar favorito, donde puedo desconectar y disfrutar de la brisa y el mar. Además, soy un gran fan de la comida japonesa, en especial el sushi, que se ha convertido en mi plato favorito.
+        </p>
+        <p>
+            Aunque me gusta la soledad, también valoro las buenas compañías. Prefiero los climas fríos y la ropa oscura, especialmente el negro, que refleja parte de mi personalidad introspectiva. A pesar de mi interés por la música, no soy muy fan de la música moderna, y prefiero explorar otros géneros que conectan más conmigo.
+        </p>
+    </section>
+
+    <section id="pasatiempos" class="section">
+        <h2>Mis Pasatiempos</h2>
+        <p>
+            En mi tiempo libre, me gusta montar bicicleta, tanto en la calle como en las montañas, donde puedo sentir la adrenalina y disfrutar de la naturaleza. Esta actividad no solo me ayuda a mantenerme en forma, sino que también me da la oportunidad de explorar y conectarme con mi entorno.
+        </p>
+        <p>
+            Además, mi amor por los autos es algo que forma una parte importante de mi vida. Me encanta aprender sobre ellos, entender su funcionamiento y mantenerme al tanto de las innovaciones en el mundo automotriz. También disfruto de pasar horas explorando nuevas tecnologías, ya que sé que la informática jugará un papel esencial en mi futuro.
+        </p>
+    </section>
+</main>
+
+<footer>
+    <p>Gracias por visitar mi página. ¡Espero que hayas disfrutado conociendo un poco más sobre mí y mis aspiraciones!</p>
+</footer>
+
+</body>
+</html>

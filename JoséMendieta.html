@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>José Mendieta</title>
+    <style>
+        /* Estilos básicos */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FDF5E6;
+            color: #333;
+        }
+        header {
+            background-color: #FFA07A;
+            color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #FFD700;
+        }
+        nav a {
+            color: #333;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #FFA07A;
+        }
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        h2 {
+            color: #333;
+        }
+
+        /* Estilos para las imágenes */
+        .profile-image {
+            width: 200px;
+            height: auto;
+            border: 5px solid;
+            border-image-slice: 1;
+            border-width: 10px;
+            border-image-source: linear-gradient(45deg, red, yellow);
+            animation: borderAnimation 2s infinite alternate;
+            display: block;
+            margin: auto;
+            border-radius: 50%;
+        }
+        @keyframes borderAnimation {
+            from { border-image-source: linear-gradient(45deg, red, yellow); }
+            to { border-image-source: linear-gradient(45deg, yellow, red); }
+        }
+
+        /* Estilo de las secciones */
+        .section {
+            background-color: #FFF8DC;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilo del pie de página */
+        footer {
+            background-color: #FFD700;
+            text-align: center;
+            padding: 10px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>José Mendieta</h1>
+</header>
+
+<nav>
+    <a href="#sobre-mi">Sobre Mí</a>
+    <a href="#gustos">Mis Gustos</a>
+</nav>
+
+<main>
+    <section id="sobre-mi" class="section">
+        <h2>Sobre Mí</h2>
+        <img src="E:\BiografíasDelAnuario\JoséMendieta.jpg" alt="Foto de José Mendieta" class="profile-image">
+        <p>
+            Mi nombre es José Mendieta, nací el 19 de agosto de 2007 en el hospital de San Miguel Arcángel. He vivido en Tocumen, Panamá, desde que tengo memoria, junto a mi familia. Soy el hijo del medio, con una hermana mayor y un hermano menor, y comparto mi hogar con ellos, así como con mis padres. Mi vida ha seguido un camino muy común: de kínder a primaria, de primaria a secundaria, y ahora estudio en el bachiller de informática del Instituto Fermín Naudeau.
+        </p>
+        <p>
+            Uno de mis objetivos a futuro es continuar mis estudios en la Universidad Tecnológica de Panamá, donde planeo especializarme en áreas relacionadas con la informática, que siempre ha sido mi pasión. Espero adquirir los conocimientos y habilidades necesarias para encontrar un trabajo que me permita desarrollarme profesionalmente y contribuir en el campo de la tecnología, que es cada vez más relevante en nuestro mundo.
+        </p>
+    </section>
+
+    <section id="gustos" class="section">
+        <h2>Mis Gustos e Intereses</h2>
+        <p>
+            Entre mis intereses principales se encuentran la ciencia y la informática. Me encanta explorar temas científicos, ya que me fascina comprender cómo funcionan el mundo y el universo. La informática, por otro lado, me permite ver el potencial de la tecnología en la vida diaria y cómo ésta puede facilitar la comunicación, el entretenimiento y el aprendizaje.
+        </p>
+        <p>
+            En mis tiempos libres, disfruto de actividades como leer historias, especialmente aquellas que me transportan a otros mundos y épocas. También me gusta ver películas y series, ya que me ayudan a relajarme y a ampliar mi perspectiva. Además, escribir es una de mis actividades favoritas; me gusta plasmar mis pensamientos e ideas en papel, lo que me permite desarrollar mi creatividad.
+        </p>
+        <p>
+            Mi color favorito es el rojo, un color que asocio con la pasión y la energía. Y, en cuanto a mis gustos culinarios, no puedo resistirme a la pizza, mi comida favorita, ideal para disfrutar en cualquier ocasión.
+        </p>
+    </section>
+</main>
+
+<footer>
+    <p>Gracias por visitar mi página personal. ¡Espero que hayas disfrutado conocer un poco más sobre mí!</p>
+</footer>
+
+</body>
+</html>
